@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "liquidGaugeVisual",
+        "displayName": "liquidGaugeVisual",
+        "guid": "liquidGaugeVisual",
+        "visualClassName": "Visual",
+        "version": "1.0.0.1",
+        "description": "Liquid Fill Gauge v1.1 - 7/14/2015",
+        "supportUrl": "https://gist.github.com/brattonc/5e5ce9beee483220e2f6",
+        "gitHubUrl": "https://gist.github.com/brattonc/5e5ce9beee483220e2f6"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Alberto Posso",
+        "email": "a.possocardona@outlook.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.1"
+}

@@ -1,1 +1,10 @@
-/liquidGaugeVisual
+/node_modules
+/liquidGaugeVisual/node_modules
+/liquidGaugeVisual/dist
+/liquidGaugeVisual/.vscode
+/liquidGaugeVisual/.git
+/liquidGaugeVisual/.github
+/gaugePro/node_modules
+/gaugePro/.vscode
+/gaugePro/.git
+/gaugePro/.github
