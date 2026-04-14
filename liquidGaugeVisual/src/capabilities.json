@@ -1,0 +1,77 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Valor",
+      "name": "value",
+      "kind": "Measure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "values": {
+          "select": [
+            {
+              "for": { "in": "value" }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "gaugeSettings": {
+      "displayName": "Gauge",
+      "properties": {
+        "fillColor": {
+          "displayName": "Color fondo",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "waveColor": {
+          "displayName": "Color ola",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "textColor": {
+          "displayName": "Color texto",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "waveHeight": {
+          "displayName": "Altura ola",
+          "type": {
+            "numeric": true
+          }
+        },
+        "waveSpeed": {
+          "displayName": "Velocidad",
+          "type": {
+            "numeric": true
+          }
+        },
+        "showText": {
+          "displayName": "Mostrar texto",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  }
+}
