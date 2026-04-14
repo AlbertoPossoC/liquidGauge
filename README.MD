@@ -6,7 +6,7 @@ Visual personalizado para Power BI que representa valores mediante una **esfera 
 
 ## 🖼️ Ejemplo de uso
 
-![Liquid Industrial Gauge Demo](./assets/demo.png)
+![Liquid Industrial Gauge Demo](./assets/sample.png)
 
 ## 🚀 Características
 
