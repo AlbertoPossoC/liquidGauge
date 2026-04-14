@@ -1,0 +1,126 @@
+{
+  "privileges": [],
+  "dataRoles": [
+    {
+      "displayName": "Valor",
+      "name": "measure",
+      "kind": "Measure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "measure"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "gaugeSettings": {
+      "displayName": "Gauge PRO TEST",
+      "properties": {
+        "fillColor": {
+          "displayName": "Color fondo",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "waveColor": {
+          "displayName": "Color ola",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "textColor": {
+          "displayName": "Color texto",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "borderColor": {
+          "displayName": "Color borde",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "borderWidth": {
+          "displayName": "Grosor borde",
+          "type": {
+            "numeric": true
+          }
+        },
+        "waveHeight": {
+          "displayName": "Altura ola",
+          "type": {
+            "numeric": true
+          }
+        },
+        "waveSpeed": {
+          "displayName": "Velocidad",
+          "type": {
+            "numeric": true
+          }
+        },
+        "showText": {
+          "displayName": "Mostrar texto",
+          "type": {
+            "bool": true
+          }
+        },
+        "showPercentage": {
+          "displayName": "Mostrar como %",
+          "type": {
+            "bool": true
+          }
+        },
+        "maxValue": {
+          "displayName": "Valor máximo",
+          "type": {
+            "numeric": true
+          }
+        },
+        "fontSize": {
+          "displayName": "Tamaño texto",
+          "type": {
+            "numeric": true
+          }
+        },
+        "fontFamily": {
+          "displayName": "Fuente",
+          "type": {
+            "text": true
+          }
+        },
+        "fontWeight": {
+          "displayName": "Negrita",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  }
+}
