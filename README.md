@@ -71,11 +71,11 @@ Desde el panel de formato puedes controlar:
 ---
 
 ## 🏗️ Arquitectura
-📦 src/
-|-- visual.ts → Entry point del visual
-|-- settings.ts → Configuración del panel
-|-- capabilities.json → Definición de propiedades
-|-- liquidGauge.ts → Lógica de render (D3)
+- src/
+  - visual.ts → Entry point del visual
+  - settings.ts → Configuración del panel
+  - capabilities.json → Definición de propiedades
+  - liquidGauge.ts → Lógica de render (D3)
 
 
 ---
